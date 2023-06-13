@@ -1,7 +1,7 @@
 # Docker-Compose-to-Deploy-Web-App
 Define &amp; run a simple, multi-container web application using docker-compose
 
-## To run:  
+## To run :  
 > Install [Docker](https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository)    
 > $ git clone https://github.com/Lily-G1/Docker-Compose-to-Deploy-Web-App.git web-app  
 > $ cd web-app  
@@ -20,6 +20,12 @@ Define &amp; run a simple, multi-container web application using docker-compose
        > exit;		   --> to exit mysql  
     > # exit		   --> to exit container  
   
-![ubuntu@ip-172-31-92-33_ ~ 6_13_2023 9_31_17 AM](https://github.com/Lily-G1/Docker-Compose-to-Deploy-Web-App/assets/104821662/ad696c80-3d6c-4c3b-bac4-ef8b8c9bcc0a)  
+![ubuntu@ip-172-31-92-33_ ~ 6_13_2023 9_31_17 AM](https://github.com/Lily-G1/Docker-Compose-to-Deploy-Web-App/assets/104821662/9347dc02-2214-4118-abb7-0062733fe3f7)  
 
 > $ docker compose down       --> stops & removes containers, images, volumes, etc created by docker compose up -d  
+
+## Important to note :  
+> To use a different password for MySQL, change passwords in mysql/Dockerfile and change the value of $password in form_submit.php with new password  
+> The MySQL database schema was created from the template of a mysql dump found in mysql/db.sql  
+
+

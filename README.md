@@ -2,8 +2,8 @@
 Define &amp; run a simple, multi-container web application using docker-compose
 
 ## To run:  
-> Install [Docker]https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository  
-> $ git clone https://github.com/Lily-G1/Docker-Compose-to-Deploy-Web-App/ web-app
+> Install [Docker](https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository)    
+> $ git clone https://github.com/Lily-G1/Docker-Compose-to-Deploy-Web-App.git web-app  
 > $ cd web-app  
 > $ docker compose build  
 > $ docker compose up -d  

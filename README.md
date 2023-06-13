@@ -8,7 +8,8 @@ Define &amp; run a simple, multi-container web application using docker-compose
 > $ docker compose build  
 > $ docker compose up -d  
 > Check browser with IP address or localhost:80. To test the app, fill form & submit  
-![Contact Form - Brave 6_13_2023 9_28_59 AM](https://github.com/Lily-G1/Docker-Compose-to-Deploy-Web-App/assets/104821662/47cbde93-8fcb-4e7a-8998-3df0c2ba6870)  
+
+![Contact Form - Brave 6_13_2023 9_28_59 AM](https://github.com/Lily-G1/Docker-Compose-to-Deploy-Web-App/assets/104821662/826debca-09e3-4e6d-80af-0f87123528d0)  
 
 > To confirm that our app is connected to the backend, view the database to check for successful data entries:  
    > $ docker ps  

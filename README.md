@@ -2,13 +2,15 @@
 Define &amp; run a simple, multi-container web application using docker-compose
 
 ## To run:  
->> Install [Docker](https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository)    
+> Install [Docker](https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository)    
 > $ git clone https://github.com/Lily-G1/Docker-Compose-to-Deploy-Web-App.git web-app  
 > $ cd web-app  
 > $ docker compose build  
 > $ docker compose up -d  
->>  check browser with IP address or localhost:80. To test the app, fill form & submit  
->> To confirm that our app is connected to the backend, view the database to check for successful data entries:  
+> Check browser with IP address or localhost:80. To test the app, fill form & submit  
+![Contact Form - Brave 6_13_2023 9_28_59 AM](https://github.com/Lily-G1/Docker-Compose-to-Deploy-Web-App/assets/104821662/47cbde93-8fcb-4e7a-8998-3df0c2ba6870)  
+
+> To confirm that our app is connected to the backend, view the database to check for successful data entries:  
    > $ docker ps  
    > $ docker exec -it 'mysql container ID' /bin/bash  
     > # mysql -u root -p   (enter mysql password)  

@@ -26,6 +26,6 @@ To confirm that our app is connected to the backend, view the database to check 
 
 ## Important to note :  
 - To use a different password for MySQL, change passwords in mysql/Dockerfile and change the value of $password in form_submit.php with new password  
-- The MySQL database schema was created from the template of a mysql dump found in mysql/db.sql  
+- The MySQL database schema was created from the template of a mysql dump. This can be found in mysql/db.sql  
 
 

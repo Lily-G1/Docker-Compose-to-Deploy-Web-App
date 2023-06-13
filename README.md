@@ -19,4 +19,7 @@ Define &amp; run a simple, multi-container web application using docker-compose
        > mysql> select * from test;		   --> to view table & confirm that form data has been entered successfully  
        > exit;		   --> to exit mysql  
     > # exit		   --> to exit container  
+  
+![ubuntu@ip-172-31-92-33_ ~ 6_13_2023 9_31_17 AM](https://github.com/Lily-G1/Docker-Compose-to-Deploy-Web-App/assets/104821662/ad696c80-3d6c-4c3b-bac4-ef8b8c9bcc0a)  
+
 > $ docker compose down       --> stops & removes containers, images, volumes, etc created by docker compose up -d  

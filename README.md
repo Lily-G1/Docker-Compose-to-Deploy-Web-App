@@ -14,11 +14,11 @@ Define &amp; run a simple, multi-container web application using docker-compose
 To confirm that our app is connected to the backend, view the database to check for successful data entries:  
 - $ docker ps  
 - $ docker exec -it 'mysql container ID' /bin/bash  
- - #mysql -u root -p   (enter mysql password)  
-  - mysql> use db;  
-  - mysql> select * from test;		   --> to view table & confirm that form data has been entered successfully  
-  - exit;		   --> to exit mysql  
- - # exit		   --> to exit container  
+  - #mysql -u root -p   (enter mysql password)  
+   - mysql> use db;  
+   - mysql> select * from test;		   --> to view table & confirm that form data has been entered successfully  
+   - exit;		   --> to exit mysql  
+  - #exit		   --> to exit container  
   
 ![ubuntu@ip-172-31-92-33_ ~ 6_13_2023 9_31_17 AM](https://github.com/Lily-G1/Docker-Compose-to-Deploy-Web-App/assets/104821662/9347dc02-2214-4118-abb7-0062733fe3f7)  
 

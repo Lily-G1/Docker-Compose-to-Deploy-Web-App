@@ -22,7 +22,7 @@ To confirm that our app is connected to the backend, view the database to check 
   
 ![ubuntu@ip-172-31-92-33_ ~ 6_13_2023 9_31_17 AM](https://github.com/Lily-G1/Docker-Compose-to-Deploy-Web-App/assets/104821662/9347dc02-2214-4118-abb7-0062733fe3f7)  
 
-- $ docker compose down       --> stops & removes containers, images, volumes, etc created by docker compose up -d  
+- $ docker compose down       --> stops & removes containers, images, volumes, etc created by 'docker compose up -d'  
 
 ## Important to note :  
 - To use a different password for MySQL, change passwords in mysql/Dockerfile and change the value of $password in form_submit.php to new password  
